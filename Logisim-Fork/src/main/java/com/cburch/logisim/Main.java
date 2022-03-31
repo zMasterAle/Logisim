@@ -33,7 +33,7 @@ import com.cburch.logisim.gui.start.Startup;
 
 public class Main {
 	// current version
-	public static final LogisimVersion VERSION = LogisimVersion.get(2, 16, 1, 3, LogisimVersion.getVariantFromFile());
+	public static final LogisimVersion VERSION = LogisimVersion.get(2, 16, 1, 4, LogisimVersion.getVariantFromFile());
 	// the version of the file you're using, equals to current version if new file
 	public static LogisimVersion FILE_VERSION;
 
@@ -42,7 +42,7 @@ public class Main {
 	public static final short COPYRIGHT_YEAR = (short) Calendar.getInstance().get(Calendar.YEAR);
 
 	/* URL for the automatic updater */
-	public static final String UPDATE_URL = "https://raw.githubusercontent.com/LogisimIt/Logisim/master/version.xml";
+	public static final String UPDATE_URL = "https://raw.githubusercontent.com/Logisim-Ita/Logisim/master/version.xml";
 
 	public static final double JAVA_VERSION = getVersion();
 
